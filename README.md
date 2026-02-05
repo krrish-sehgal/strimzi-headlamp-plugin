@@ -19,38 +19,20 @@
 
 The **Strimzi Headlamp Plugin** provides a unified, visual interface for managing Apache Kafka infrastructure on Kubernetes through the Strimzi Operator. This plugin eliminates the need for separate tooling or CLI operations, bringing Kafka cluster management directly into the Headlamp Kubernetes dashboard.
 
-### 🎯 Problem Statement
-
-Currently, Strimzi users must rely on `kubectl` commands and YAML manifests to manage their Kafka infrastructure. While tools like Cruise Control UI exist for cluster rebalancing, there is no unified interface for day-to-day Kafka operations on Kubernetes. This creates several challenges:
-
-- **Operational complexity**: Managing topics, users, and connectors requires deep knowledge of Strimzi CRDs and kubectl commands
-- **Limited visibility**: Understanding cluster health, consumer lag, and connector status requires multiple CLI commands or external tools
-- **Context switching**: Platform teams must jump between Kubernetes dashboards and Kafka-specific tools
-- **Steep learning curve**: New users struggle to understand the relationship between Strimzi resources and their Kafka clusters
-
-### ✨ Solution
-
-This plugin provides a comprehensive, user-friendly interface within Headlamp that enables:
-
-- **Visual management** of all Strimzi resources (Kafka clusters, topics, users, connectors)
-- **Real-time monitoring** of cluster health, broker status, and task states
-- **One-click operations** for common tasks like restarting connectors and managing ACLs
-- **Integrated workflow** that keeps everything in the Kubernetes dashboard context
-
----
 
 ## 🎬 Demo
 
 ### Video Demo
 
-> **📹 [Watch the Full Demo Video](YOUR_VIDEO_LINK_HERE)** *(Coming soon - you can add your video link here)*
+> **📹 Watch the Full Demo Video:
+
+https://github.com/user-attachments/assets/098d2966-6288-46fc-a3bb-824662e09420
 
 The demo showcases:
 - Setting up and viewing Kafka clusters
 - Managing topics with create/delete operations
 - Configuring users with ACL visualization
 - Monitoring Kafka Connect clusters and connectors
-- Task management and restart operations
 
 ### Screenshots
 
