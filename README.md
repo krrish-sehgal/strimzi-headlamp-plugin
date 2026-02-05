@@ -137,7 +137,7 @@ The demo showcases:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/strimzi-headlamp-plugin.git
+   git clone https://github.com/krrish-sehgal/strimzi-headlamp-plugin.git
    cd strimzi-headlamp-plugin
    ```
 
@@ -367,8 +367,8 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENS
 
 ## 👤 Author
 
-**Your Name**
-- GitHub: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
+**Krrish Sehgal**
+- GitHub: [@krrish-sehgal](https://github.com/krrish-sehgal)
 - Project: LFX Mentorship Program
 
 ---
@@ -383,6 +383,6 @@ If you find this project helpful, please give it a ⭐ on GitHub!
 
 **Built with ❤️ for the Kubernetes and Kafka communities**
 
-[Report Bug](https://github.com/YOUR_USERNAME/strimzi-headlamp-plugin/issues) • [Request Feature](https://github.com/YOUR_USERNAME/strimzi-headlamp-plugin/issues) • [Documentation](https://github.com/YOUR_USERNAME/strimzi-headlamp-plugin/wiki)
+[Report Bug](https://github.com/krrish-sehgal/strimzi-headlamp-plugin/issues) • [Request Feature](https://github.com/krrish-sehgal/strimzi-headlamp-plugin/issues) • [Documentation](https://github.com/krrish-sehgal/strimzi-headlamp-plugin/wiki)
 
 </div>
