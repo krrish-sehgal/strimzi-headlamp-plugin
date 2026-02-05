@@ -55,26 +55,84 @@ The demo showcases:
 ### Screenshots
 
 #### Kafka Cluster Overview
-![Kafka Cluster Overview](docs/screenshots/kafka-cluster-overview.png)
-*Comprehensive view of Kafka cluster with broker health, listeners, and configuration*
+
+<div align="center">
+
+<img width="800" alt="Kafka Cluster List View" src="https://github.com/user-attachments/assets/054e0797-e690-4198-a9bd-af4d901c0ba4" />
+
+*Kafka clusters list view (6:32:33 PM)*
+
+<img width="800" alt="Kafka Cluster Detail - Overview" src="https://github.com/user-attachments/assets/b6610b87-a7fa-43b7-adf7-56e21c8f3d73" />
+
+*Kafka cluster detail view with status and configuration (6:32:47 PM)*
+
+<img width="800" alt="Kafka Cluster - Listeners" src="https://github.com/user-attachments/assets/ccaa7bee-cb53-424e-9b11-da3103497d03" />
+
+*Listener endpoints configuration (6:33:08 PM)*
+
+<img width="800" alt="Kafka Cluster - Broker Pods" src="https://github.com/user-attachments/assets/fe6c1f74-03ed-4920-a071-307e9b590cd8" />
+
+*Broker pods health status and monitoring (6:33:47 PM)*
+
+<img width="800" alt="Kafka Cluster - Status Conditions" src="https://github.com/user-attachments/assets/e9eda409-f020-46c7-832a-652b3ccda572" />
+
+*Cluster status conditions and readiness state (6:34:15 PM)*
+
+</div>
 
 #### Topic Management
-![Topic Management](docs/screenshots/topic-management.png)
-*List and detail views for Kafka topics with partition and replica information*
+
+<div align="center">
+
+<img width="800" alt="Kafka Topics List View" src="https://github.com/user-attachments/assets/860fb8e7-896e-4c72-a366-d2638d7fe45d" />
+
+*Kafka topics list with partitions, replicas, and status (6:34:51 PM)*
+
+<img width="800" alt="Kafka Topic Detail View" src="https://github.com/user-attachments/assets/ff05eb42-9b47-465e-91d6-7cb498f4733d" />
+
+*Topic detail view showing configuration (6:36:36 PM)*
+
+<img width="800" alt="Kafka Topic Configuration" src="https://github.com/user-attachments/assets/d7d438c5-56aa-4c88-a2e5-0ac545887bad" />
+
+*Topic configuration and status details (6:36:46 PM)*
+
+</div>
 
 #### User Management with ACL Visualization
-![User Management](docs/screenshots/user-management.png)
-*Kafka user management with color-coded ACL rules and authentication details*
+
+<div align="center">
+
+<img width="800" alt="Kafka Users List View" src="https://github.com/user-attachments/assets/f38347b1-9f3f-461b-b6e1-0cd3f34baede" />
+
+*Kafka users list with authentication and authorization types (6:45:54 PM)*
+
+<img width="800" alt="Kafka User ACL Visualization" src="https://github.com/user-attachments/assets/2fee765f-8e2c-4ecb-af69-12ef632bebe0" />
+
+*Color-coded ACL rules visualization with detailed permissions (6:46:06 PM)*
+
+</div>
 
 #### Kafka Connect & Connector Management
-![Connect Management](docs/screenshots/connect-management.png)
-*Kafka Connect cluster status and connector task management with restart capabilities*
 
-#### Task Management
-![Task Management](docs/screenshots/task-management.png)
-*Detailed task view showing running, failed, and paused tasks with restart actions*
+<div align="center">
 
-> **Note**: Screenshots are placeholders. Replace with actual screenshots from your Headlamp instance.
+<img width="800" alt="Kafka Connect Cluster List" src="https://github.com/user-attachments/assets/9fdab9e1-0166-4ae0-b375-c4d1cb06441f" />
+
+*Kafka Connect clusters list view (6:47:34 PM)*
+
+<img width="800" alt="Kafka Connect Cluster Detail" src="https://github.com/user-attachments/assets/de5b66ea-ce59-4abb-8301-3d27b5323da5" />
+
+*Connect cluster detail with restart functionality (6:47:47 PM)*
+
+<img width="800" alt="Kafka Connectors List" src="https://github.com/user-attachments/assets/7f9f4fc8-7139-4bd9-a387-40fb9a919b03" />
+
+*Kafka connectors list with task status (6:48:01 PM)*
+
+<img width="800" alt="Kafka Connector Task Management" src="https://github.com/user-attachments/assets/fb551ef0-2842-46f6-b0a6-86f1e115a04a" />
+
+*Connector task management with restart actions (6:48:22 PM)*
+
+</div>
 
 ---
 
