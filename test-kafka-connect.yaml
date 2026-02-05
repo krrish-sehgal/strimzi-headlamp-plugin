@@ -1,0 +1,22 @@
+apiVersion: kafka.strimzi.io/v1
+kind: KafkaConnect
+metadata:
+  name: my-connect-cluster
+  namespace: kafka
+  labels:
+    app: strimzi
+  annotations:
+    strimzi.io/use-connector-resources: "true"
+spec:
+  replicas: 1
+  bootstrapServers: test-cluster-kafka-bootstrap:9092
+  version: 4.1.1
+  groupId: connect-cluster
+  configStorageTopic: connect-cluster-configs
+  offsetStorageTopic: connect-cluster-offsets
+  statusStorageTopic: connect-cluster-status
+  config:
+    # -1 means it will use the default replication factor configured in the broker
+    config.storage.replication.factor: -1
+    offset.storage.replication.factor: -1
+    status.storage.replication.factor: -1

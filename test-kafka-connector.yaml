@@ -1,0 +1,15 @@
+apiVersion: kafka.strimzi.io/v1
+kind: KafkaConnector
+metadata:
+  name: my-connector
+  namespace: kafka
+  labels:
+    strimzi.io/cluster: my-connect-cluster
+spec:
+  class: org.apache.kafka.connect.file.FileStreamSourceConnector
+  tasksMax: 2
+  config:
+    file: "/tmp/test.txt"
+    topic: test-topic
+    # File connector specific configuration
+    # This is a simple example - in production you'd use proper connectors
